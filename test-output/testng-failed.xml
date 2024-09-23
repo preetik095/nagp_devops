@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCase_sauceLab.SauceLabTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="closeBrowser"/>
+          <include name="getMethodName"/>
+          <include name="logoutTest"/>
+          <include name="getResult"/>
+          <include name="initializeObjects"/>
+          <include name="openURL"/>
+          <include name="loginTest"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- testCase_sauceLab.SauceLabTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="153.598" tests="15" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment\target\test-classes;C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment\target\classes;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\preetikhade\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\preetikhade\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\preetikhade\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\preetikhade\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\preetikhade\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\preetikhade\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\preetikhade\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\preetikhade\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\preetikhade\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\preetikhade\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\preetikhade\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\preetikhade\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\preetikhade\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\preetikhade\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\preetikhade\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\preetikhade\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\preetikhade\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\preetikhade\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\preetikhade\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\preetikhade\OneDrive - Nagarro\Desktop\Preeti\Automation\jdk-11\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\preetikhade\AppData\Local\Temp\surefire12020236832732432027\surefirebooter-20240421175516552_3.jar C:\Users\preetikhade\AppData\Local\Temp\surefire12020236832732432027 2024-04-21T17-55-16_127-jvmRun1 surefire-20240421175516552_1tmp surefire_0-20240421175516552_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment\target\test-classes;C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment\target\classes;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\preetikhade\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\preetikhade\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\preetikhade\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\preetikhade\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\preetikhade\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\preetikhade\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\preetikhade\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\preetikhade\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\preetikhade\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\preetikhade\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\preetikhade\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\preetikhade\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\preetikhade\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\preetikhade\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\preetikhade\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\preetikhade\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\preetikhade\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\preetikhade\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\preetikhade\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\preetikhade\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\preetikhade\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\preetikhade"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\Users\preetikhade\OneDrive - Nagarro\Desktop\Preeti\Automation\jdk-11\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\preetikhade\AppData\Local\Temp\surefire12020236832732432027\surefirebooter-20240421175516552_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="preetikhade"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\preetikhade\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PREETI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\preetikhade\OneDrive - Nagarro\Desktop\Preeti\Automation\jdk-11\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Users\preetikhade\Maven\apache-maven-3.8.4\bin;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\preetikhade\OneDrive - Nagarro\Desktop\Preeti\Automation\jdk-11\jdk-11\bin;C:\Program Files\Git\cmd;D:\Preeti\Automation\Drivers;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\preetikhade\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\preetikhade\OneDrive - Nagarro\Desktop\Preeti\Automation\jdk-11\jdk-11\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.6\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="HomePage_homePageTitleTest" classname="testCases.HomePageTest" time="0.747">
+    <system-out><![CDATA[HomePageTest Test Case Started
+[INFO ] 2024-04-21 17:55:24,504 base.TestBase:86 - Chrome driver initialized
+[INFO ] 2024-04-21 17:55:28,619 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+HomePage_homePageTitleTest Test case STARTED
+[DEBUG] 2024-04-21 17:55:29,353 base.TestBase:51 - Successfully validated HomePage title
+HomePage_homePageTitleTest Test Case PASSED
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Apr 21, 2024 5:55:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+]]></system-err>
+  </testcase>
+  <testcase name="HomePage_busTicketPageNavigationTest" classname="testCases.HomePageTest" time="2.12">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:55:31,966 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+HomePage_busTicketPageNavigationTest Test case STARTED
+[DEBUG] 2024-04-21 17:55:34,088 base.TestBase:70 - Successfully navigated to Bus Tickets page
+HomePage_busTicketPageNavigationTest Test Case PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_trainTicketsPageNavigationtTest" classname="testCases.HomePageTest" time="2.495">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:55:35,705 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+HomePage_trainTicketsPageNavigationtTest Test case STARTED
+[DEBUG] 2024-04-21 17:55:38,202 base.TestBase:87 - Successfully navigated to Train Tickets page
+HomePage_trainTicketsPageNavigationtTest Test Case PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_busSearchResultTest" classname="testCases.HomePageTest" time="15.842">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:55:38,990 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+HomePage_busSearchResultTest Test case STARTED
+[DEBUG] 2024-04-21 17:55:54,836 base.TestBase:116 - Successfully validated bus search details
+HomePage_busSearchResultTest Test Case PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_facebookPageNavigationTest" classname="testCases.HomePageTest" time="2.615">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:55:56,221 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+HomePage_facebookPageNavigationTest Test case STARTED
+[DEBUG] 2024-04-21 17:55:58,831 base.TestBase:133 - Successfully navigated to Facebook page
+HomePage_facebookPageNavigationTest Test Case PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_linkedInPageNavigationTest" classname="testCases.HomePageTest" time="2.623">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:56:00,647 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+HomePage_linkedInPageNavigationTest Test case STARTED
+[DEBUG] 2024-04-21 17:56:03,281 base.TestBase:151 - Successfully navigated to LinkedIn page
+HomePage_linkedInPageNavigationTest Test Case PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_twitterPageNavigationTest" classname="testCases.HomePageTest" time="3.135">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:56:04,420 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+HomePage_twitterPageNavigationTest Test case STARTED
+[DEBUG] 2024-04-21 17:56:07,563 base.TestBase:168 - Successfully navigated to Twitter page
+HomePage_twitterPageNavigationTest Test Case PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="HomePage_instagramPageNavigationTest" classname="testCases.HomePageTest" time="1.951">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:56:08,623 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+HomePage_instagramPageNavigationTest Test case STARTED
+[DEBUG] 2024-04-21 17:56:10,578 base.TestBase:187 - Successfully navigated to Instagram page
+HomePage_instagramPageNavigationTest Test Case PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="TrainTicketPage_searchTrainResultTest" classname="testCases.TrainTicketsPageTest" time="9.485">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:56:12,427 base.TestBase:122 - Quit the driver session
+HomePageTest Test Case Finished
+TrainTicketsTest Test Case Started
+[INFO ] 2024-04-21 17:56:15,942 base.TestBase:86 - Chrome driver initialized
+[INFO ] 2024-04-21 17:56:20,131 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+TrainTicketPage_searchTrainResultTest Test case STARTED
+[DEBUG] 2024-04-21 17:56:29,603 base.TestBase:62 - Successfully validated train search result
+TrainTicketPage_searchTrainResultTest Test Case PASSED
+]]></system-out>
+    <system-err><![CDATA[Apr 21, 2024 5:56:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+]]></system-err>
+  </testcase>
+  <testcase name="TrainTicketPage_errorMessageOnIncorrectPNR" classname="testCases.TrainTicketsPageTest" time="9.624">
+    <failure message="The following asserts failed:&#10;	errorMessageOnIncorrectPNR_PNR number is incorrect expected [8849110215] but found [PNR: 8849110215]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	errorMessageOnIncorrectPNR_PNR number is incorrect expected [8849110215] but found [PNR: 8849110215]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.TrainTicketsPageTest.TrainTicketPage_errorMessageOnIncorrectPNR(TrainTicketsPageTest.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:56:31,146 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+TrainTicketPage_errorMessageOnIncorrectPNR Test case STARTED
+[DEBUG] 2024-04-21 17:56:40,778 base.TestBase:83 - Successfully validated PNR error message
+TrainTicketPage_errorMessageOnIncorrectPNR Test Case FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="TrainTicketPage_liveTrainStatusTest" classname="testCases.TrainTicketsPageTest" time="30.357">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;lts_running_status_wrap&apos;]/div//div[2]&quot;}&#10;  (Session info: chrome=123.0.6312.124)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [4c2e32acd2176354df3ec3768754b069, findElement {value=//div[@class=&apos;lts_running_status_wrap&apos;]/div//div[2], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55810/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4c2e32acd2176354df3ec3768754b069" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='lts_running_status_wrap']/div//div[2]"}
+  (Session info: chrome=123.0.6312.124)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c2e32acd2176354df3ec3768754b069, findElement {value=//div[@class='lts_running_status_wrap']/div//div[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55810/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c2e32acd2176354df3ec3768754b069
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at testCases.TrainTicketsPageTest.TrainTicketPage_liveTrainStatusTest(TrainTicketsPageTest.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:56:41,526 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+TrainTicketPage_liveTrainStatusTest Test case STARTED
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+13129  | Bandhan Express
+TrainTicketPage_liveTrainStatusTest Test Case FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="HelpPage_helpPageNavigationTest" classname="testCases.HelpPageTest" time="3.147">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:57:13,387 base.TestBase:122 - Quit the driver session
+TrainTicketsTest Test Case Finished
+HelpPageTest Test Case Started
+[INFO ] 2024-04-21 17:57:16,795 base.TestBase:86 - Chrome driver initialized
+[INFO ] 2024-04-21 17:57:19,338 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+HelpPage_helpPageNavigationTest Test case STARTED
+[DEBUG] 2024-04-21 17:57:22,478 base.TestBase:48 - Successfully navigated to Help page
+HelpPage_helpPageNavigationTest Test Case PASSED
+]]></system-out>
+    <system-err><![CDATA[java.io.FileNotFoundException: C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment\extentReports\CurrentTestResult\CurrentTestResult_Sun Apr 21 17-55-28 IST 2024\Screenshots\no such element: Unable to locate element: {"method":"xpath","selector":"\div[@class='lts_running_status_wrap']\div\div[2]"}
+  (Session info: chrome=123.0.6312.124)
+For documentation on this error, please visit: https:\www.selenium.dev\documentation\webdriver\troubleshooting\errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c2e32acd2176354df3ec3768754b069, findElement {value=\div[@class='lts_running_status_wrap']\div\div[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws:\localhost:55810\devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c2e32acd2176354df3ec3768754b069.jpg (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110)
+	at generics.GenericFunctions.takeScreenShot(GenericFunctions.java:81)
+	at reporting.ExtentManager.getResult(ExtentManager.java:160)
+	at testCases.TrainTicketsPageTest.getResult(TrainTicketsPageTest.java:116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Apr 21, 2024 5:57:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+]]></system-err>
+  </testcase>
+  <testcase name="ShowMyTicketPage_errorMessageOnInvalidTicketTest" classname="testCases.ShowMyTicketPageTest" time="4.205">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:57:23,558 base.TestBase:122 - Quit the driver session
+HelpPageTest Test Case Finished
+ShowMyTicketTest Test Case Started
+[INFO ] 2024-04-21 17:57:26,606 base.TestBase:86 - Chrome driver initialized
+[INFO ] 2024-04-21 17:57:29,960 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+ShowMyTicketPage_errorMessageOnInvalidTicketTest Test case STARTED
+[DEBUG] 2024-04-21 17:57:34,166 base.TestBase:47 - Error message for blank ticket number is successfully validated
+ShowMyTicketPage_errorMessageOnInvalidTicketTest Test Case PASSED
+]]></system-out>
+    <system-err><![CDATA[Apr 21, 2024 5:57:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+]]></system-err>
+  </testcase>
+  <testcase name="CancelTicketPage_pageNavigationTest" classname="testCases.CancelTicketPageTest" time="2.212">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:57:35,838 base.TestBase:122 - Quit the driver session
+ShowMyTicketTest Test Case Finished
+CancelTicketTest Test Case Started
+[INFO ] 2024-04-21 17:57:39,312 base.TestBase:86 - Chrome driver initialized
+[INFO ] 2024-04-21 17:57:43,141 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+CancelTicketPage_pageNavigationTest Test case STARTED
+[DEBUG] 2024-04-21 17:57:45,355 base.TestBase:49 - Successfully navigated to Cancel Tickets page
+CancelTicketPage_pageNavigationTest Test Case PASSED
+]]></system-out>
+    <system-err><![CDATA[Apr 21, 2024 5:57:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+]]></system-err>
+  </testcase>
+  <testcase name="CancelTicketPage_errorMsgOnInvalidTicketNumberTest" classname="testCases.CancelTicketPageTest" time="2.849">
+    <system-out><![CDATA[[INFO ] 2024-04-21 17:57:47,087 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+CancelTicketPage_errorMsgOnInvalidTicketNumberTest Test case STARTED
+[DEBUG] 2024-04-21 17:57:49,949 base.TestBase:67 - Error message for invalid ticket number is successfully validated
+CancelTicketPage_errorMsgOnInvalidTicketNumberTest Test Case PASSED
+]]></system-out>
+  </testcase>
+</testsuite>

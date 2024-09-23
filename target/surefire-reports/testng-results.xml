@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-21T17:55:19 IST" name="Suite" finished-at="2024-04-21T17:57:51 IST" duration-ms="152128">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTest.HomePage_busSearchResultTest()[pri:4, instance:testCases.HomePageTest@5ed731d0]" name="HomePage_busSearchResultTest" class="testCases.HomePageTest"/>
+        <method signature="TrainTicketsPageTest.TrainTicketPage_searchTrainResultTest()[pri:1, instance:testCases.TrainTicketsPageTest@2c3dec30]" name="TrainTicketPage_searchTrainResultTest" class="testCases.TrainTicketsPageTest"/>
+        <method signature="TrainTicketsPageTest.TrainTicketPage_errorMessageOnIncorrectPNR()[pri:2, instance:testCases.TrainTicketsPageTest@2c3dec30]" name="TrainTicketPage_errorMessageOnIncorrectPNR" class="testCases.TrainTicketsPageTest"/>
+        <method signature="TrainTicketsPageTest.TrainTicketPage_liveTrainStatusTest()[pri:3, instance:testCases.TrainTicketsPageTest@2c3dec30]" name="TrainTicketPage_liveTrainStatusTest" class="testCases.TrainTicketsPageTest"/>
+        <method signature="ShowMyTicketPageTest.ShowMyTicketPage_errorMessageOnInvalidTicketTest()[pri:1, instance:testCases.ShowMyTicketPageTest@7adf16aa]" name="ShowMyTicketPage_errorMessageOnInvalidTicketTest" class="testCases.ShowMyTicketPageTest"/>
+        <method signature="CancelTicketPageTest.CancelTicketPage_errorMsgOnInvalidTicketNumberTest()[pri:2, instance:testCases.CancelTicketPageTest@2c104774]" name="CancelTicketPage_errorMsgOnInvalidTicketNumberTest" class="testCases.CancelTicketPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="HomePageTest.HomePage_homePageTitleTest()[pri:1, instance:testCases.HomePageTest@5ed731d0]" name="HomePage_homePageTitleTest" class="testCases.HomePageTest"/>
+        <method signature="HomePageTest.HomePage_busTicketPageNavigationTest()[pri:2, instance:testCases.HomePageTest@5ed731d0]" name="HomePage_busTicketPageNavigationTest" class="testCases.HomePageTest"/>
+        <method signature="HomePageTest.HomePage_trainTicketsPageNavigationtTest()[pri:3, instance:testCases.HomePageTest@5ed731d0]" name="HomePage_trainTicketsPageNavigationtTest" class="testCases.HomePageTest"/>
+        <method signature="HomePageTest.HomePage_facebookPageNavigationTest()[pri:5, instance:testCases.HomePageTest@5ed731d0]" name="HomePage_facebookPageNavigationTest" class="testCases.HomePageTest"/>
+        <method signature="HomePageTest.HomePage_linkedInPageNavigationTest()[pri:6, instance:testCases.HomePageTest@5ed731d0]" name="HomePage_linkedInPageNavigationTest" class="testCases.HomePageTest"/>
+        <method signature="HomePageTest.HomePage_twitterPageNavigationTest()[pri:7, instance:testCases.HomePageTest@5ed731d0]" name="HomePage_twitterPageNavigationTest" class="testCases.HomePageTest"/>
+        <method signature="HomePageTest.HomePage_instagramPageNavigationTest()[pri:8, instance:testCases.HomePageTest@5ed731d0]" name="HomePage_instagramPageNavigationTest" class="testCases.HomePageTest"/>
+        <method signature="HelpPageTest.HelpPage_helpPageNavigationTest()[pri:1, instance:testCases.HelpPageTest@3fc9dfc5]" name="HelpPage_helpPageNavigationTest" class="testCases.HelpPageTest"/>
+        <method signature="CancelTicketPageTest.CancelTicketPage_pageNavigationTest()[pri:1, instance:testCases.CancelTicketPageTest@2c104774]" name="CancelTicketPage_pageNavigationTest" class="testCases.CancelTicketPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-04-21T17:55:19 IST" name="HomePageTest" finished-at="2024-04-21T17:56:12 IST" duration-ms="53248">
+      <class name="testCases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:19 IST" name="setup" finished-at="2024-04-21T17:55:24 IST" duration-ms="5519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:24 IST" name="initialize" finished-at="2024-04-21T17:55:28 IST" duration-ms="3829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HomePage_homePageTitleTest()[pri:1, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:28 IST" name="HomePage_homePageTitleTest" finished-at="2024-04-21T17:55:29 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_homePageTitleTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:29 IST" name="getResult" finished-at="2024-04-21T17:55:30 IST" duration-ms="746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage_homePageTitleTest status=SUCCESS method=HomePageTest.HomePage_homePageTitleTest()[pri:1, instance:testCases.HomePageTest@5ed731d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:30 IST" name="initialize" finished-at="2024-04-21T17:55:31 IST" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HomePage_busTicketPageNavigationTest()[pri:2, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:31 IST" name="HomePage_busTicketPageNavigationTest" finished-at="2024-04-21T17:55:34 IST" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_busTicketPageNavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:34 IST" name="getResult" finished-at="2024-04-21T17:55:34 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage_busTicketPageNavigationTest status=SUCCESS method=HomePageTest.HomePage_busTicketPageNavigationTest()[pri:2, instance:testCases.HomePageTest@5ed731d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:34 IST" name="initialize" finished-at="2024-04-21T17:55:35 IST" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HomePage_trainTicketsPageNavigationtTest()[pri:3, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:35 IST" name="HomePage_trainTicketsPageNavigationtTest" finished-at="2024-04-21T17:55:38 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_trainTicketsPageNavigationtTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:38 IST" name="getResult" finished-at="2024-04-21T17:55:38 IST" duration-ms="65" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage_trainTicketsPageNavigationtTest status=SUCCESS method=HomePageTest.HomePage_trainTicketsPageNavigationtTest()[pri:3, instance:testCases.HomePageTest@5ed731d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:38 IST" name="initialize" finished-at="2024-04-21T17:55:38 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HomePage_busSearchResultTest()[pri:4, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:38 IST" name="HomePage_busSearchResultTest" finished-at="2024-04-21T17:55:54 IST" duration-ms="15845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_busSearchResultTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:54 IST" name="getResult" finished-at="2024-04-21T17:55:54 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage_busSearchResultTest status=SUCCESS method=HomePageTest.HomePage_busSearchResultTest()[pri:4, instance:testCases.HomePageTest@5ed731d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:54 IST" name="initialize" finished-at="2024-04-21T17:55:56 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HomePage_facebookPageNavigationTest()[pri:5, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:56 IST" name="HomePage_facebookPageNavigationTest" finished-at="2024-04-21T17:55:58 IST" duration-ms="2611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_facebookPageNavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:58 IST" name="getResult" finished-at="2024-04-21T17:55:58 IST" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage_facebookPageNavigationTest status=SUCCESS method=HomePageTest.HomePage_facebookPageNavigationTest()[pri:5, instance:testCases.HomePageTest@5ed731d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:55:58 IST" name="initialize" finished-at="2024-04-21T17:56:00 IST" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HomePage_linkedInPageNavigationTest()[pri:6, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:56:00 IST" name="HomePage_linkedInPageNavigationTest" finished-at="2024-04-21T17:56:03 IST" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_linkedInPageNavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:56:03 IST" name="getResult" finished-at="2024-04-21T17:56:03 IST" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage_linkedInPageNavigationTest status=SUCCESS method=HomePageTest.HomePage_linkedInPageNavigationTest()[pri:6, instance:testCases.HomePageTest@5ed731d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:56:03 IST" name="initialize" finished-at="2024-04-21T17:56:04 IST" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HomePage_twitterPageNavigationTest()[pri:7, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:56:04 IST" name="HomePage_twitterPageNavigationTest" finished-at="2024-04-21T17:56:07 IST" duration-ms="3143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_twitterPageNavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:56:07 IST" name="getResult" finished-at="2024-04-21T17:56:07 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage_twitterPageNavigationTest status=SUCCESS method=HomePageTest.HomePage_twitterPageNavigationTest()[pri:7, instance:testCases.HomePageTest@5ed731d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:56:07 IST" name="initialize" finished-at="2024-04-21T17:56:08 IST" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HomePage_instagramPageNavigationTest()[pri:8, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:56:08 IST" name="HomePage_instagramPageNavigationTest" finished-at="2024-04-21T17:56:10 IST" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_instagramPageNavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:56:10 IST" name="getResult" finished-at="2024-04-21T17:56:10 IST" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage_instagramPageNavigationTest status=SUCCESS method=HomePageTest.HomePage_instagramPageNavigationTest()[pri:8, instance:testCases.HomePageTest@5ed731d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HomePageTest@5ed731d0]" started-at="2024-04-21T17:56:10 IST" name="tearDown" finished-at="2024-04-21T17:56:12 IST" duration-ms="1746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.HomePageTest -->
+    </test> <!-- HomePageTest -->
+    <test started-at="2024-04-21T17:56:12 IST" name="TrainTicketsTest" finished-at="2024-04-21T17:57:13 IST" duration-ms="60897">
+      <class name="testCases.TrainTicketsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TrainTicketsPageTest@2c3dec30]" started-at="2024-04-21T17:56:12 IST" name="setup" finished-at="2024-04-21T17:56:16 IST" duration-ms="3610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.TrainTicketsPageTest@2c3dec30]" started-at="2024-04-21T17:56:16 IST" name="initialize" finished-at="2024-04-21T17:56:20 IST" duration-ms="4029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="TrainTicketPage_searchTrainResultTest()[pri:1, instance:testCases.TrainTicketsPageTest@2c3dec30]" started-at="2024-04-21T17:56:20 IST" name="TrainTicketPage_searchTrainResultTest" finished-at="2024-04-21T17:56:29 IST" duration-ms="9472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrainTicketPage_searchTrainResultTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TrainTicketsPageTest@2c3dec30]" started-at="2024-04-21T17:56:29 IST" name="getResult" finished-at="2024-04-21T17:56:29 IST" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TrainTicketPage_searchTrainResultTest status=SUCCESS method=TrainTicketsPageTest.TrainTicketPage_searchTrainResultTest()[pri:1, instance:testCases.TrainTicketsPageTest@2c3dec30] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.TrainTicketsPageTest@2c3dec30]" started-at="2024-04-21T17:56:29 IST" name="initialize" finished-at="2024-04-21T17:56:31 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="TrainTicketPage_errorMessageOnIncorrectPNR()[pri:2, instance:testCases.TrainTicketsPageTest@2c3dec30]" started-at="2024-04-21T17:56:31 IST" name="TrainTicketPage_errorMessageOnIncorrectPNR" finished-at="2024-04-21T17:56:40 IST" duration-ms="9628" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+errorMessageOnIncorrectPNR_PNR number is incorrect expected [8849110215] but found [PNR: 8849110215]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+errorMessageOnIncorrectPNR_PNR number is incorrect expected [8849110215] but found [PNR: 8849110215]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testCases.TrainTicketsPageTest.TrainTicketPage_errorMessageOnIncorrectPNR(TrainTicketsPageTest.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrainTicketPage_errorMessageOnIncorrectPNR -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TrainTicketsPageTest@2c3dec30]" started-at="2024-04-21T17:56:40 IST" name="getResult" finished-at="2024-04-21T17:56:40 IST" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TrainTicketPage_errorMessageOnIncorrectPNR status=FAILURE method=TrainTicketsPageTest.TrainTicketPage_errorMessageOnIncorrectPNR()[pri:2, instance:testCases.TrainTicketsPageTest@2c3dec30] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.TrainTicketsPageTest@2c3dec30]" started-at="2024-04-21T17:56:40 IST" name="initialize" finished-at="2024-04-21T17:56:41 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="TrainTicketPage_liveTrainStatusTest()[pri:3, instance:testCases.TrainTicketsPageTest@2c3dec30]" started-at="2024-04-21T17:56:41 IST" name="TrainTicketPage_liveTrainStatusTest" finished-at="2024-04-21T17:57:11 IST" duration-ms="30357" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='lts_running_status_wrap']/div//div[2]"}
+  (Session info: chrome=123.0.6312.124)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c2e32acd2176354df3ec3768754b069, findElement {value=//div[@class='lts_running_status_wrap']/div//div[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55810/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c2e32acd2176354df3ec3768754b069]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='lts_running_status_wrap']/div//div[2]"}
+  (Session info: chrome=123.0.6312.124)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c2e32acd2176354df3ec3768754b069, findElement {value=//div[@class='lts_running_status_wrap']/div//div[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55810/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c2e32acd2176354df3ec3768754b069
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at testCases.TrainTicketsPageTest.TrainTicketPage_liveTrainStatusTest(TrainTicketsPageTest.java:99)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrainTicketPage_liveTrainStatusTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TrainTicketsPageTest@2c3dec30]" started-at="2024-04-21T17:57:11 IST" name="getResult" finished-at="2024-04-21T17:57:12 IST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TrainTicketPage_liveTrainStatusTest status=FAILURE method=TrainTicketsPageTest.TrainTicketPage_liveTrainStatusTest()[pri:3, instance:testCases.TrainTicketsPageTest@2c3dec30] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TrainTicketsPageTest@2c3dec30]" started-at="2024-04-21T17:57:12 IST" name="tearDown" finished-at="2024-04-21T17:57:13 IST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TrainTicketsPageTest -->
+    </test> <!-- TrainTicketsTest -->
+    <test started-at="2024-04-21T17:57:13 IST" name="HelpPageTest" finished-at="2024-04-21T17:57:23 IST" duration-ms="10140">
+      <class name="testCases.HelpPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.HelpPageTest@3fc9dfc5]" started-at="2024-04-21T17:57:13 IST" name="setup" finished-at="2024-04-21T17:57:16 IST" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.HelpPageTest@3fc9dfc5]" started-at="2024-04-21T17:57:16 IST" name="initialize" finished-at="2024-04-21T17:57:19 IST" duration-ms="2403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HelpPage_helpPageNavigationTest()[pri:1, instance:testCases.HelpPageTest@3fc9dfc5]" started-at="2024-04-21T17:57:19 IST" name="HelpPage_helpPageNavigationTest" finished-at="2024-04-21T17:57:22 IST" duration-ms="3140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelpPage_helpPageNavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.HelpPageTest@3fc9dfc5]" started-at="2024-04-21T17:57:22 IST" name="getResult" finished-at="2024-04-21T17:57:22 IST" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HelpPage_helpPageNavigationTest status=SUCCESS method=HelpPageTest.HelpPage_helpPageNavigationTest()[pri:1, instance:testCases.HelpPageTest@3fc9dfc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HelpPageTest@3fc9dfc5]" started-at="2024-04-21T17:57:22 IST" name="tearDown" finished-at="2024-04-21T17:57:23 IST" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.HelpPageTest -->
+    </test> <!-- HelpPageTest -->
+    <test started-at="2024-04-21T17:57:23 IST" name="ShowMyTicketTest" finished-at="2024-04-21T17:57:35 IST" duration-ms="12264">
+      <class name="testCases.ShowMyTicketPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.ShowMyTicketPageTest@7adf16aa]" started-at="2024-04-21T17:57:23 IST" name="setup" finished-at="2024-04-21T17:57:26 IST" duration-ms="3177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.ShowMyTicketPageTest@7adf16aa]" started-at="2024-04-21T17:57:26 IST" name="initialize" finished-at="2024-04-21T17:57:29 IST" duration-ms="3208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="ShowMyTicketPage_errorMessageOnInvalidTicketTest()[pri:1, instance:testCases.ShowMyTicketPageTest@7adf16aa]" started-at="2024-04-21T17:57:29 IST" name="ShowMyTicketPage_errorMessageOnInvalidTicketTest" finished-at="2024-04-21T17:57:34 IST" duration-ms="4206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShowMyTicketPage_errorMessageOnInvalidTicketTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.ShowMyTicketPageTest@7adf16aa]" started-at="2024-04-21T17:57:34 IST" name="getResult" finished-at="2024-04-21T17:57:34 IST" duration-ms="58" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShowMyTicketPage_errorMessageOnInvalidTicketTest status=SUCCESS method=ShowMyTicketPageTest.ShowMyTicketPage_errorMessageOnInvalidTicketTest()[pri:1, instance:testCases.ShowMyTicketPageTest@7adf16aa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ShowMyTicketPageTest@7adf16aa]" started-at="2024-04-21T17:57:34 IST" name="tearDown" finished-at="2024-04-21T17:57:35 IST" duration-ms="1612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ShowMyTicketPageTest -->
+    </test> <!-- ShowMyTicketTest -->
+    <test started-at="2024-04-21T17:57:35 IST" name="CancelTicketTest" finished-at="2024-04-21T17:57:51 IST" duration-ms="15452">
+      <class name="testCases.CancelTicketPageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.CancelTicketPageTest@2c104774]" started-at="2024-04-21T17:57:35 IST" name="Setup" finished-at="2024-04-21T17:57:39 IST" duration-ms="3618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.CancelTicketPageTest@2c104774]" started-at="2024-04-21T17:57:39 IST" name="initialize" finished-at="2024-04-21T17:57:43 IST" duration-ms="3666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="CancelTicketPage_pageNavigationTest()[pri:1, instance:testCases.CancelTicketPageTest@2c104774]" started-at="2024-04-21T17:57:43 IST" name="CancelTicketPage_pageNavigationTest" finished-at="2024-04-21T17:57:45 IST" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelTicketPage_pageNavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.CancelTicketPageTest@2c104774]" started-at="2024-04-21T17:57:45 IST" name="getResult" finished-at="2024-04-21T17:57:45 IST" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CancelTicketPage_pageNavigationTest status=SUCCESS method=CancelTicketPageTest.CancelTicketPage_pageNavigationTest()[pri:1, instance:testCases.CancelTicketPageTest@2c104774] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.CancelTicketPageTest@2c104774]" started-at="2024-04-21T17:57:45 IST" name="initialize" finished-at="2024-04-21T17:57:47 IST" duration-ms="1678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="CancelTicketPage_errorMsgOnInvalidTicketNumberTest()[pri:2, instance:testCases.CancelTicketPageTest@2c104774]" started-at="2024-04-21T17:57:47 IST" name="CancelTicketPage_errorMsgOnInvalidTicketNumberTest" finished-at="2024-04-21T17:57:49 IST" duration-ms="2862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelTicketPage_errorMsgOnInvalidTicketNumberTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.CancelTicketPageTest@2c104774]" started-at="2024-04-21T17:57:49 IST" name="getResult" finished-at="2024-04-21T17:57:49 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CancelTicketPage_errorMsgOnInvalidTicketNumberTest status=SUCCESS method=CancelTicketPageTest.CancelTicketPage_errorMsgOnInvalidTicketNumberTest()[pri:2, instance:testCases.CancelTicketPageTest@2c104774] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CancelTicketPageTest@2c104774]" started-at="2024-04-21T17:57:49 IST" name="tearDown" finished-at="2024-04-21T17:57:51 IST" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CancelTicketPageTest -->
+    </test> <!-- CancelTicketTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,574 @@
+[INFO ] 2024-04-21 17:55:24,504 base.TestBase:86 - Chrome driver initialized
+[INFO ] 2024-04-21 17:55:28,619 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:55:28,891 reporting.ExtentManager:142 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[DEBUG] 2024-04-21 17:55:29,353 base.TestBase:51 - Successfully validated HomePage title
+[INFO ] 2024-04-21 17:55:31,966 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:55:34,004 pages.HomePage:171 - Clicked on Bus Tickets button
+[DEBUG] 2024-04-21 17:55:34,088 base.TestBase:70 - Successfully navigated to Bus Tickets page
+[INFO ] 2024-04-21 17:55:35,705 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:55:38,095 pages.HomePage:182 - Clicked on Train Tickets button
+[DEBUG] 2024-04-21 17:55:38,202 base.TestBase:87 - Successfully navigated to Train Tickets page
+[INFO ] 2024-04-21 17:55:38,990 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:55:39,259 pages.HomePage:199 - Entered from city
+[INFO ] 2024-04-21 17:55:43,472 pages.HomePage:206 - Entered to city
+[INFO ] 2024-04-21 17:55:51,472 pages.HomePage:214 - Selected bus travel date
+[INFO ] 2024-04-21 17:55:51,568 pages.HomePage:217 - Clicked on Search Buses button
+[DEBUG] 2024-04-21 17:55:54,836 base.TestBase:116 - Successfully validated bus search details
+[INFO ] 2024-04-21 17:55:56,221 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:55:56,493 pages.HomePage:246 - Clicked on Facebook image
+[INFO ] 2024-04-21 17:55:58,823 pages.HomePage:258 - Closed the facebook page
+[DEBUG] 2024-04-21 17:55:58,831 base.TestBase:133 - Successfully navigated to Facebook page
+[INFO ] 2024-04-21 17:56:00,647 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:56:01,201 pages.HomePage:283 - Clicked on linkedIn image
+[INFO ] 2024-04-21 17:56:03,264 pages.HomePage:296 - Closed the linkedIn page
+[DEBUG] 2024-04-21 17:56:03,281 base.TestBase:151 - Successfully navigated to LinkedIn page
+[INFO ] 2024-04-21 17:56:04,420 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:56:04,870 pages.HomePage:309 - Clicked on twitter image
+[INFO ] 2024-04-21 17:56:07,557 pages.HomePage:321 - Closed the twitter page
+[DEBUG] 2024-04-21 17:56:07,563 base.TestBase:168 - Successfully navigated to Twitter page
+[INFO ] 2024-04-21 17:56:08,623 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:56:09,067 pages.HomePage:333 - Clicked on instagram page
+[INFO ] 2024-04-21 17:56:10,564 pages.HomePage:345 - Closed the instagram page
+[DEBUG] 2024-04-21 17:56:10,578 base.TestBase:187 - Successfully navigated to Instagram page
+[INFO ] 2024-04-21 17:56:12,427 base.TestBase:122 - Quit the driver session
+[INFO ] 2024-04-21 17:56:15,942 base.TestBase:86 - Chrome driver initialized
+[INFO ] 2024-04-21 17:56:20,131 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:56:21,607 pages.TrainTicketsPage:174 - Clicked on Train Ticket image link
+[INFO ] 2024-04-21 17:56:24,253 pages.TrainTicketsPage:184 - Enetered from station
+[INFO ] 2024-04-21 17:56:26,430 pages.TrainTicketsPage:187 - Entered to station
+[INFO ] 2024-04-21 17:56:27,231 pages.TrainTicketsPage:191 - Selected rail travel date
+[DEBUG] 2024-04-21 17:56:29,603 base.TestBase:62 - Successfully validated train search result
+[INFO ] 2024-04-21 17:56:31,146 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:56:33,640 pages.TrainTicketsPage:254 - Clicked on Train Ticket image link
+[INFO ] 2024-04-21 17:56:35,384 pages.TrainTicketsPage:259 - Selected Check PNR Status radio button
+[INFO ] 2024-04-21 17:56:35,553 pages.TrainTicketsPage:264 - Entered PNR number
+[INFO ] 2024-04-21 17:56:35,820 pages.TrainTicketsPage:267 - Clicked on Check Status button
+[DEBUG] 2024-04-21 17:56:40,778 base.TestBase:83 - Successfully validated PNR error message
+[INFO ] 2024-04-21 17:56:41,526 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:56:43,621 pages.TrainTicketsPage:283 - Clicked on Train Tickets image button
+[INFO ] 2024-04-21 17:56:44,919 pages.TrainTicketsPage:289 - Selected Live Train Status radio button
+[INFO ] 2024-04-21 17:56:47,005 pages.TrainTicketsPage:298 - Entered train number
+[INFO ] 2024-04-21 17:56:51,805 pages.TrainTicketsPage:314 - Clicked on Check Status button
+[INFO ] 2024-04-21 17:57:13,387 base.TestBase:122 - Quit the driver session
+[INFO ] 2024-04-21 17:57:16,795 base.TestBase:86 - Chrome driver initialized
+[INFO ] 2024-04-21 17:57:19,338 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:57:19,505 pages.HelpPage:41 - Help button clicked
+[INFO ] 2024-04-21 17:57:19,545 pages.HelpPage:46 - Switched to Help page in new tab
+[INFO ] 2024-04-21 17:57:22,478 pages.HelpPage:51 - Closed Home Page window
+[INFO ] 2024-04-21 17:57:22,478 pages.HelpPage:54 - Navigated back to Home Page window
+[DEBUG] 2024-04-21 17:57:22,478 base.TestBase:48 - Successfully navigated to Help page
+[INFO ] 2024-04-21 17:57:23,558 base.TestBase:122 - Quit the driver session
+[INFO ] 2024-04-21 17:57:26,606 base.TestBase:86 - Chrome driver initialized
+[INFO ] 2024-04-21 17:57:29,960 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:57:30,619 pages.ShowMyTicketPage:66 - Clicked on Account button link
+[INFO ] 2024-04-21 17:57:30,784 pages.ShowMyTicketPage:68 - Clicked on Show My Ticket button link
+[INFO ] 2024-04-21 17:57:32,541 pages.ShowMyTicketPage:80 - Enetered ticket number
+[INFO ] 2024-04-21 17:57:32,690 pages.ShowMyTicketPage:83 - Enetered mobile number
+[INFO ] 2024-04-21 17:57:34,027 pages.ShowMyTicketPage:86 - Clicked on Submit button
+[DEBUG] 2024-04-21 17:57:34,166 base.TestBase:47 - Error message for blank ticket number is successfully validated
+[INFO ] 2024-04-21 17:57:35,838 base.TestBase:122 - Quit the driver session
+[INFO ] 2024-04-21 17:57:39,312 base.TestBase:86 - Chrome driver initialized
+[INFO ] 2024-04-21 17:57:43,141 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:57:43,535 pages.CancelTicketPage:74 - Clicked on Account button link
+[INFO ] 2024-04-21 17:57:43,763 pages.CancelTicketPage:78 - Clicked on Cancel Ticket button link
+[DEBUG] 2024-04-21 17:57:45,355 base.TestBase:49 - Successfully navigated to Cancel Tickets page
+[INFO ] 2024-04-21 17:57:47,087 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 17:57:47,441 pages.CancelTicketPage:103 - Clicked on Account button link
+[INFO ] 2024-04-21 17:57:47,621 pages.CancelTicketPage:108 - Clicked on Cancel Ticket button link
+[INFO ] 2024-04-21 17:57:49,156 pages.CancelTicketPage:116 - Entered ticket number
+[INFO ] 2024-04-21 17:57:49,440 pages.CancelTicketPage:119 - Entered mobile number
+[INFO ] 2024-04-21 17:57:49,585 pages.CancelTicketPage:122 - Clicked on Select passengers button
+[DEBUG] 2024-04-21 17:57:49,949 base.TestBase:67 - Error message for invalid ticket number is successfully validated
+[INFO ] 2024-04-21 17:57:51,307 base.TestBase:122 - Quit the driver session
+[INFO ] 2024-04-21 18:08:31,312 base.TestBase:97 - Firefox driver initialized
+[INFO ] 2024-04-21 18:08:34,576 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:08:35,023 reporting.ExtentManager:142 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[DEBUG] 2024-04-21 18:08:35,577 base.TestBase:51 - Successfully validated HomePage title
+[INFO ] 2024-04-21 18:08:38,854 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:08:41,259 pages.HomePage:171 - Clicked on Bus Tickets button
+[DEBUG] 2024-04-21 18:08:41,657 base.TestBase:70 - Successfully navigated to Bus Tickets page
+[INFO ] 2024-04-21 18:08:43,314 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:08:46,201 pages.HomePage:182 - Clicked on Train Tickets button
+[DEBUG] 2024-04-21 18:08:46,339 base.TestBase:87 - Successfully navigated to Train Tickets page
+[INFO ] 2024-04-21 18:08:48,119 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:08:48,675 pages.HomePage:199 - Entered from city
+[INFO ] 2024-04-21 18:08:53,021 pages.HomePage:206 - Entered to city
+[INFO ] 2024-04-21 18:09:01,253 pages.HomePage:214 - Selected bus travel date
+[INFO ] 2024-04-21 18:09:05,019 pages.HomePage:217 - Clicked on Search Buses button
+[DEBUG] 2024-04-21 18:09:05,134 base.TestBase:116 - Successfully validated bus search details
+[INFO ] 2024-04-21 18:09:06,553 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:09:06,682 pages.HomePage:246 - Clicked on Facebook image
+[INFO ] 2024-04-21 18:09:08,575 pages.HomePage:258 - Closed the facebook page
+[DEBUG] 2024-04-21 18:09:08,581 base.TestBase:133 - Successfully navigated to Facebook page
+[INFO ] 2024-04-21 18:09:09,999 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:09:10,548 pages.HomePage:283 - Clicked on linkedIn image
+[INFO ] 2024-04-21 18:09:10,640 pages.HomePage:296 - Closed the linkedIn page
+[INFO ] 2024-04-21 18:09:13,011 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:09:34,622 base.TestBase:105 - Internet Explorer driver initialized
+[INFO ] 2024-04-21 18:09:41,680 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:09:41,906 reporting.ExtentManager:142 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[DEBUG] 2024-04-21 18:09:42,684 base.TestBase:51 - Successfully validated HomePage title
+[INFO ] 2024-04-21 18:09:45,419 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:09:47,629 pages.HomePage:171 - Clicked on Bus Tickets button
+[DEBUG] 2024-04-21 18:09:48,477 base.TestBase:70 - Successfully navigated to Bus Tickets page
+[INFO ] 2024-04-21 18:09:49,922 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:09:51,488 pages.HomePage:182 - Clicked on Train Tickets button
+[INFO ] 2024-04-21 18:10:12,799 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:10:34,631 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:10:42,325 pages.HomePage:246 - Clicked on Facebook image
+[ERROR] 2024-04-21 18:11:02,556 base.TestBase:137 - facebookPageNavigationTest_Facebook page navigation failed
+[INFO ] 2024-04-21 18:11:04,718 base.TestBase:113 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:11:06,611 pages.HomePage:283 - Clicked on linkedIn image
+[INFO ] 2024-04-21 18:21:59,856 base.TestBase:109 - Internet Explorer driver initialized
+[INFO ] 2024-04-21 18:22:01,496 base.TestBase:117 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:22:01,575 reporting.ExtentManager:142 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[DEBUG] 2024-04-21 18:22:01,807 base.TestBase:51 - Successfully validated HomePage title
+[INFO ] 2024-04-21 18:22:03,598 base.TestBase:117 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:22:04,645 pages.HomePage:171 - Clicked on Bus Tickets button
+[DEBUG] 2024-04-21 18:22:04,913 base.TestBase:70 - Successfully navigated to Bus Tickets page
+[INFO ] 2024-04-21 18:22:06,495 base.TestBase:117 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-04-21 18:22:08,065 pages.HomePage:182 - Clicked on Train Tickets button
+[INFO ] 2024-06-06 13:27:28,788 base.TestBase:89 - Chrome driver initialized
+[INFO ] 2024-06-06 13:27:46,809 base.TestBase:117 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-06-06 13:27:47,075 reporting.ExtentManager:142 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-06-06 13:27:47,543 pages.CancelTicketPage:74 - Clicked on Account button link
+[INFO ] 2024-06-06 13:27:47,702 pages.CancelTicketPage:78 - Clicked on Cancel Ticket button link
+[DEBUG] 2024-06-06 13:27:48,779 base.TestBase:49 - Successfully navigated to Cancel Tickets page
+[INFO ] 2024-06-06 13:27:50,283 base.TestBase:117 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-06-06 13:27:50,419 pages.CancelTicketPage:103 - Clicked on Account button link
+[INFO ] 2024-06-06 13:27:50,634 pages.CancelTicketPage:108 - Clicked on Cancel Ticket button link
+[INFO ] 2024-06-06 13:27:52,130 pages.CancelTicketPage:116 - Entered ticket number
+[INFO ] 2024-06-06 13:27:52,271 pages.CancelTicketPage:119 - Entered mobile number
+[INFO ] 2024-06-06 13:27:52,367 pages.CancelTicketPage:122 - Clicked on Select passengers button
+[DEBUG] 2024-06-06 13:27:52,944 base.TestBase:67 - Error message for invalid ticket number is successfully validated
+[INFO ] 2024-06-06 13:27:53,861 base.TestBase:126 - Quit the driver session
+[INFO ] 2024-06-14 12:51:13,792 base.TestBase:89 - Chrome driver initialized
+[INFO ] 2024-07-29 11:09:02,831 base.Base:126 - Chrome driver initialized
+[INFO ] 2024-07-29 11:09:02,995 base.Base:92 - Generating testmethod name
+[INFO ] 2024-07-29 11:09:06,375 base.Base:84 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 11:09:07,526 base.Base:114 - Quit the driver session
+[INFO ] 2024-07-29 11:11:17,512 base.Base:126 - Chrome driver initialized
+[INFO ] 2024-07-29 11:11:17,675 base.Base:92 - Generating testmethod name
+[INFO ] 2024-07-29 11:11:20,079 base.Base:84 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 11:11:20,151 reporting.ExtentManager:144 - C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/CurrentTestResult directory is empty.
+[INFO ] 2024-07-29 11:11:21,585 base.Base:114 - Quit the driver session
+[INFO ] 2024-07-29 11:14:52,014 base.Base:126 - Chrome driver initialized
+[INFO ] 2024-07-29 11:14:52,186 base.Base:92 - Generating testmethod name
+[INFO ] 2024-07-29 11:14:53,918 base.Base:84 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 11:14:53,976 reporting.ExtentManager:142 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-29 11:14:54,123 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 11:14:54,892 base.Base:114 - Quit the driver session
+[INFO ] 2024-07-29 11:16:50,498 base.Base:126 - Chrome driver initialized
+[INFO ] 2024-07-29 11:16:50,678 base.Base:92 - Generating testmethod name
+[INFO ] 2024-07-29 11:16:52,994 base.Base:84 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 11:16:53,062 reporting.ExtentManager:142 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-29 11:28:04,718 base.Base:124 - Chrome driver initialized
+[INFO ] 2024-07-29 11:28:05,293 base.Base:90 - Generating testmethod name
+[INFO ] 2024-07-29 11:28:08,612 base.Base:82 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 11:28:08,938 reporting.ExtentManager:142 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-29 11:28:09,827 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 11:28:12,486 base.Base:112 - Quit the driver session
+[INFO ] 2024-07-29 11:29:26,981 base.Base:124 - Chrome driver initialized
+[INFO ] 2024-07-29 11:29:27,197 base.Base:90 - Generating testmethod name
+[INFO ] 2024-07-29 11:29:30,262 base.Base:82 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 11:29:30,566 reporting.ExtentManager:142 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-29 11:29:31,369 pages.CancelTicketPage:76 - Clicked on Account button link
+[INFO ] 2024-07-29 11:29:31,831 pages.CancelTicketPage:80 - Clicked on Cancel Ticket button link
+[INFO ] 2024-07-29 11:29:37,691 base.Base:112 - Quit the driver session
+[INFO ] 2024-07-29 12:24:40,978 base.Base:135 - Chrome driver initialized
+[INFO ] 2024-07-29 12:24:41,197 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:24:44,496 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:24:44,545 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-29 12:24:44,688 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 12:24:44,698 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:24:45,021 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:24:45,537 pages.HomePage:173 - Clicked on Bus Tickets button
+[INFO ] 2024-07-29 12:24:45,595 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:24:45,761 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:24:47,057 pages.HomePage:184 - Clicked on Train Tickets button
+[INFO ] 2024-07-29 12:24:47,151 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:24:47,326 base.Base:93 - Base URL launched: https://www.redbus.in/
+[ERROR] 2024-07-29 12:24:47,376 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 12:24:47,378 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:24:47,560 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:24:47,876 pages.HomePage:248 - Clicked on Facebook image
+[INFO ] 2024-07-29 12:24:51,260 pages.HomePage:260 - Closed the facebook page
+[INFO ] 2024-07-29 12:24:51,268 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:24:51,429 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:24:51,612 pages.HomePage:285 - Clicked on linkedIn image
+[INFO ] 2024-07-29 12:24:54,575 pages.HomePage:298 - Closed the linkedIn page
+[INFO ] 2024-07-29 12:24:54,575 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:24:54,774 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:24:54,937 pages.HomePage:311 - Clicked on twitter image
+[INFO ] 2024-07-29 12:25:03,643 pages.HomePage:323 - Closed the twitter page
+[ERROR] 2024-07-29 12:25:03,645 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 12:25:03,658 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:25:03,857 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:25:04,055 pages.HomePage:335 - Clicked on instagram page
+[INFO ] 2024-07-29 12:25:06,790 pages.HomePage:347 - Closed the instagram page
+[INFO ] 2024-07-29 12:25:07,318 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:25:07,490 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:25:08,054 pages.TrainTicketsPage:181 - Clicked on Train Ticket image link
+[ERROR] 2024-07-29 12:25:08,158 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 12:25:08,159 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:25:08,343 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:25:08,904 pages.TrainTicketsPage:261 - Clicked on Train Ticket image link
+[INFO ] 2024-07-29 12:25:12,808 pages.TrainTicketsPage:266 - Selected Check PNR Status radio button
+[ERROR] 2024-07-29 12:25:12,866 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 12:25:12,867 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:25:13,011 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:25:13,775 pages.TrainTicketsPage:290 - Clicked on Train Tickets image button
+[INFO ] 2024-07-29 12:25:16,129 pages.TrainTicketsPage:296 - Selected Live Train Status radio button
+[ERROR] 2024-07-29 12:25:18,158 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 12:25:18,209 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:25:18,375 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:25:18,508 pages.HelpPage:34 - Help button clicked
+[INFO ] 2024-07-29 12:25:18,529 pages.HelpPage:39 - Switched to Help page in new tab
+[INFO ] 2024-07-29 12:25:21,307 pages.HelpPage:44 - Closed Home Page window
+[INFO ] 2024-07-29 12:25:21,317 pages.HelpPage:47 - Navigated back to Home Page window
+[INFO ] 2024-07-29 12:25:21,349 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:25:21,605 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:25:22,208 pages.ShowMyTicketPage:65 - Clicked on Account button link
+[INFO ] 2024-07-29 12:25:22,325 pages.ShowMyTicketPage:67 - Clicked on Show My Ticket button link
+[ERROR] 2024-07-29 12:25:22,844 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 12:25:22,863 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:25:23,008 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:25:23,097 pages.CancelTicketPage:72 - Clicked on Account button link
+[INFO ] 2024-07-29 12:25:23,185 pages.CancelTicketPage:76 - Clicked on Cancel Ticket button link
+[ERROR] 2024-07-29 12:26:03,813 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 12:26:03,813 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 12:26:04,359 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 12:26:04,436 pages.CancelTicketPage:101 - Clicked on Account button link
+[INFO ] 2024-07-29 12:26:04,496 pages.CancelTicketPage:106 - Clicked on Cancel Ticket button link
+[ERROR] 2024-07-29 12:26:04,606 testCases.CancelTicketPageTest:51 - errorMsgOnInvalidTicketNumberTest_Error message not displayed
+[INFO ] 2024-07-29 12:26:05,269 base.Base:123 - Quit the driver session
+[INFO ] 2024-07-29 15:58:17,566 base.Base:135 - Chrome driver initialized
+[INFO ] 2024-07-29 15:58:17,907 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 15:58:21,423 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 15:58:21,567 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-29 15:58:21,871 pages.CancelTicketPage:72 - Clicked on Account button link
+[INFO ] 2024-07-29 15:58:21,968 pages.CancelTicketPage:76 - Clicked on Cancel Ticket button link
+[INFO ] 2024-07-29 15:58:23,302 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 15:58:23,599 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 15:58:23,705 pages.CancelTicketPage:101 - Clicked on Account button link
+[INFO ] 2024-07-29 15:58:23,798 pages.CancelTicketPage:106 - Clicked on Cancel Ticket button link
+[ERROR] 2024-07-29 15:58:24,377 testCases.CancelTicketPageTest:51 - errorMsgOnInvalidTicketNumberTest_Error message not displayed
+[INFO ] 2024-07-29 15:58:25,733 base.Base:123 - Quit the driver session
+[INFO ] 2024-07-29 16:38:11,904 base.Base:135 - Chrome driver initialized
+[INFO ] 2024-07-29 16:38:12,289 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 16:38:14,236 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 16:38:14,330 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-29 16:38:29,186 base.Base:135 - Chrome driver initialized
+[INFO ] 2024-07-29 16:38:29,395 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 16:38:32,947 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 16:38:33,072 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-29 16:38:51,251 pages.CancelTicketPage:72 - Clicked on Account button link
+[INFO ] 2024-07-29 16:38:58,516 pages.CancelTicketPage:76 - Clicked on Cancel Ticket button link
+[INFO ] 2024-07-29 16:40:20,547 base.Base:135 - Chrome driver initialized
+[INFO ] 2024-07-29 16:40:20,757 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 16:40:22,649 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 16:40:22,705 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-29 16:40:47,097 pages.CancelTicketPage:101 - Clicked on Account button link
+[INFO ] 2024-07-29 16:40:56,312 pages.CancelTicketPage:106 - Clicked on Cancel Ticket button link
+[INFO ] 2024-07-29 16:46:35,722 base.Base:135 - Chrome driver initialized
+[INFO ] 2024-07-29 16:46:35,940 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 16:46:38,170 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 16:46:38,272 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-29 16:47:08,136 pages.CancelTicketPage:101 - Clicked on Account button link
+[INFO ] 2024-07-29 16:47:38,859 pages.CancelTicketPage:106 - Clicked on Cancel Ticket button link
+[INFO ] 2024-07-29 16:50:39,561 base.Base:135 - Chrome driver initialized
+[INFO ] 2024-07-29 16:50:39,787 base.Base:101 - Generating testmethod name
+[INFO ] 2024-07-29 16:50:42,002 base.Base:93 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 16:50:42,066 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-29 16:50:42,532 pages.CancelTicketPage:101 - Clicked on Account button link
+[INFO ] 2024-07-29 16:50:42,635 pages.CancelTicketPage:106 - Clicked on Cancel Ticket button link
+[INFO ] 2024-07-29 16:50:44,673 pages.CancelTicketPage:114 - Entered ticket number
+[INFO ] 2024-07-29 16:50:44,808 pages.CancelTicketPage:117 - Entered mobile number
+[INFO ] 2024-07-29 16:50:44,879 pages.CancelTicketPage:120 - Clicked on Select passengers button
+[INFO ] 2024-07-29 16:50:46,872 base.Base:123 - Quit the driver session
+[INFO ] 2024-07-29 16:54:36,820 base.Base:136 - Chrome driver initialized
+[INFO ] 2024-07-29 16:54:37,151 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 16:54:39,092 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 16:54:39,147 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-29 16:54:39,517 pages.CancelTicketPage:101 - Clicked on Account button link
+[INFO ] 2024-07-29 16:54:39,809 pages.CancelTicketPage:106 - Clicked on Cancel Ticket button link
+[INFO ] 2024-07-29 16:54:42,196 pages.CancelTicketPage:114 - Entered ticket number
+[INFO ] 2024-07-29 16:54:42,427 pages.CancelTicketPage:117 - Entered mobile number
+[INFO ] 2024-07-29 16:54:42,565 pages.CancelTicketPage:120 - Clicked on Select passengers button
+[INFO ] 2024-07-29 16:54:44,739 base.Base:124 - Quit the driver session
+[INFO ] 2024-07-29 18:41:02,640 base.Base:136 - Chrome driver initialized
+[INFO ] 2024-07-29 18:41:02,913 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:41:06,470 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:41:06,531 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-29 18:41:06,668 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 18:41:06,678 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:41:07,023 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:41:07,784 pages.HomePage:173 - Clicked on Bus Tickets button
+[INFO ] 2024-07-29 18:41:07,861 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:41:08,116 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:41:11,806 pages.HomePage:184 - Clicked on Train Tickets button
+[INFO ] 2024-07-29 18:41:11,875 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:41:12,113 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:41:12,197 pages.HomePage:201 - Entered from city
+[INFO ] 2024-07-29 18:41:36,417 pages.HomePage:208 - Entered to city
+[INFO ] 2024-07-29 18:42:05,160 pages.HomePage:216 - Selected bus travel date
+[INFO ] 2024-07-29 18:42:05,232 pages.HomePage:219 - Clicked on Search Buses button
+[ERROR] 2024-07-29 18:42:25,255 pages.HomePage:234 - No bus details found!
+[ERROR] 2024-07-29 18:42:25,349 testCases.HomePageTest:101 - busSearchResultTest_Bus details not displayed
+[INFO ] 2024-07-29 18:42:25,349 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:42:25,587 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:42:25,843 pages.HomePage:248 - Clicked on Facebook image
+[INFO ] 2024-07-29 18:42:28,218 pages.HomePage:260 - Closed the facebook page
+[INFO ] 2024-07-29 18:42:28,228 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:42:28,432 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:42:28,603 pages.HomePage:285 - Clicked on linkedIn image
+[INFO ] 2024-07-29 18:42:31,855 pages.HomePage:298 - Closed the linkedIn page
+[INFO ] 2024-07-29 18:42:31,874 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:42:32,068 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:42:32,226 pages.HomePage:311 - Clicked on twitter image
+[INFO ] 2024-07-29 18:42:38,082 pages.HomePage:323 - Closed the twitter page
+[ERROR] 2024-07-29 18:42:38,088 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 18:42:38,089 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:42:38,340 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:42:38,499 pages.HomePage:335 - Clicked on instagram page
+[INFO ] 2024-07-29 18:42:40,720 pages.HomePage:347 - Closed the instagram page
+[INFO ] 2024-07-29 18:42:41,195 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:42:41,372 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:42:41,907 pages.TrainTicketsPage:181 - Clicked on Train Ticket image link
+[INFO ] 2024-07-29 18:42:44,312 pages.TrainTicketsPage:191 - Enetered from station
+[INFO ] 2024-07-29 18:42:46,478 pages.TrainTicketsPage:194 - Entered to station
+[INFO ] 2024-07-29 18:42:47,525 pages.TrainTicketsPage:198 - Selected rail travel date
+[ERROR] 2024-07-29 18:43:08,029 pages.TrainTicketsPage:250 - No bus details found!
+[ERROR] 2024-07-29 18:43:08,123 testCases.TrainTicketsPageTest:45 - searchTrainResultTest_Train search result validation unsuccessfull
+[INFO ] 2024-07-29 18:43:08,123 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:43:08,372 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:43:09,112 pages.TrainTicketsPage:261 - Clicked on Train Ticket image link
+[INFO ] 2024-07-29 18:43:10,119 pages.TrainTicketsPage:266 - Selected Check PNR Status radio button
+[INFO ] 2024-07-29 18:43:10,220 pages.TrainTicketsPage:271 - Entered PNR number
+[INFO ] 2024-07-29 18:43:10,280 pages.TrainTicketsPage:274 - Clicked on Check Status button
+[ERROR] 2024-07-29 18:43:19,040 testCases.TrainTicketsPageTest:67 - errorMessageOnIncorrectPNR_PNR message is incorrect
+[INFO ] 2024-07-29 18:43:19,040 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:43:19,299 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:43:19,948 pages.TrainTicketsPage:290 - Clicked on Train Tickets image button
+[INFO ] 2024-07-29 18:43:20,969 pages.TrainTicketsPage:296 - Selected Live Train Status radio button
+[INFO ] 2024-07-29 18:43:23,041 pages.TrainTicketsPage:305 - Entered train number
+[INFO ] 2024-07-29 18:43:26,307 pages.TrainTicketsPage:321 - Clicked on Check Status button
+[ERROR] 2024-07-29 18:43:28,570 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 18:43:28,615 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:43:28,896 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:43:28,979 pages.HelpPage:34 - Help button clicked
+[INFO ] 2024-07-29 18:43:28,991 pages.HelpPage:39 - Switched to Help page in new tab
+[INFO ] 2024-07-29 18:43:31,468 pages.HelpPage:44 - Closed Home Page window
+[INFO ] 2024-07-29 18:43:31,474 pages.HelpPage:47 - Navigated back to Home Page window
+[INFO ] 2024-07-29 18:43:31,510 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:43:31,779 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:43:32,381 pages.ShowMyTicketPage:65 - Clicked on Account button link
+[INFO ] 2024-07-29 18:43:32,472 pages.ShowMyTicketPage:67 - Clicked on Show My Ticket button link
+[INFO ] 2024-07-29 18:43:33,331 pages.ShowMyTicketPage:79 - Enetered ticket number
+[INFO ] 2024-07-29 18:43:33,421 pages.ShowMyTicketPage:82 - Enetered mobile number
+[INFO ] 2024-07-29 18:43:34,098 pages.ShowMyTicketPage:85 - Clicked on Submit button
+[INFO ] 2024-07-29 18:43:34,215 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:43:34,440 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:43:34,528 pages.CancelTicketPage:72 - Clicked on Account button link
+[INFO ] 2024-07-29 18:43:34,651 pages.CancelTicketPage:76 - Clicked on Cancel Ticket button link
+[ERROR] 2024-07-29 18:44:15,310 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-29 18:44:15,310 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-29 18:44:15,855 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-29 18:44:15,938 pages.CancelTicketPage:101 - Clicked on Account button link
+[INFO ] 2024-07-29 18:44:16,019 pages.CancelTicketPage:106 - Clicked on Cancel Ticket button link
+[ERROR] 2024-07-29 18:44:56,614 testCases.CancelTicketPageTest:51 - errorMsgOnInvalidTicketNumberTest_Error message not displayed
+[INFO ] 2024-07-29 18:44:57,382 base.Base:124 - Quit the driver session
+[INFO ] 2024-07-30 15:17:45,902 base.Base:136 - Chrome driver initialized
+[INFO ] 2024-07-30 15:17:46,115 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:17:49,880 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:17:49,975 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-30 15:17:50,102 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-30 15:17:50,109 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:17:50,521 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:17:50,970 pages.HomePage:177 - Clicked on Bus Tickets button
+[INFO ] 2024-07-30 15:17:51,047 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:17:51,219 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:17:52,526 pages.HomePage:188 - Clicked on Train Tickets button
+[INFO ] 2024-07-30 15:17:52,605 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:17:52,819 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:17:52,909 pages.HomePage:205 - Entered from city
+[INFO ] 2024-07-30 15:18:17,083 pages.HomePage:212 - Entered to city
+[INFO ] 2024-07-30 15:18:44,900 pages.HomePage:220 - Selected bus travel date
+[INFO ] 2024-07-30 15:18:44,971 pages.HomePage:223 - Clicked on Search Buses button
+[ERROR] 2024-07-30 15:18:46,877 testCases.HomePageTest:101 - busSearchResultTest_Bus details not displayed
+[INFO ] 2024-07-30 15:18:46,879 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:18:47,209 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:18:47,473 pages.HomePage:252 - Clicked on Facebook image
+[INFO ] 2024-07-30 15:18:50,159 pages.HomePage:264 - Closed the facebook page
+[INFO ] 2024-07-30 15:18:50,167 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:18:50,415 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:18:50,632 pages.HomePage:289 - Clicked on linkedIn image
+[INFO ] 2024-07-30 15:18:53,613 pages.HomePage:302 - Closed the linkedIn page
+[INFO ] 2024-07-30 15:18:53,625 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:18:53,856 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:18:54,006 pages.HomePage:315 - Clicked on twitter image
+[INFO ] 2024-07-30 15:19:02,077 pages.HomePage:327 - Closed the twitter page
+[ERROR] 2024-07-30 15:19:02,098 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-30 15:19:02,103 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:19:02,680 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:20:12,294 base.Base:136 - Chrome driver initialized
+[INFO ] 2024-07-30 15:20:12,518 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:20:14,452 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:20:14,644 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-30 15:20:15,057 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-30 15:20:17,183 base.Base:124 - Quit the driver session
+[INFO ] 2024-07-30 15:21:38,941 base.Base:136 - Chrome driver initialized
+[INFO ] 2024-07-30 15:21:39,152 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:21:40,928 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:21:40,992 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-30 15:21:41,293 pages.HomePage:205 - Entered from city
+[INFO ] 2024-07-30 15:22:05,454 pages.HomePage:212 - Entered to city
+[INFO ] 2024-07-30 15:22:33,390 pages.HomePage:220 - Selected bus travel date
+[INFO ] 2024-07-30 15:22:33,454 pages.HomePage:223 - Clicked on Search Buses button
+[ERROR] 2024-07-30 15:22:35,539 testCases.HomePageTest:101 - busSearchResultTest_Bus details not displayed
+[INFO ] 2024-07-30 15:22:36,488 base.Base:124 - Quit the driver session
+[INFO ] 2024-07-30 15:22:54,862 base.Base:136 - Chrome driver initialized
+[INFO ] 2024-07-30 15:22:55,060 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:22:57,439 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:22:57,494 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-30 15:22:57,613 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:22:58,121 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:22:58,971 pages.HomePage:177 - Clicked on Bus Tickets button
+[INFO ] 2024-07-30 15:22:59,029 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:22:59,278 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:23:01,055 pages.HomePage:188 - Clicked on Train Tickets button
+[INFO ] 2024-07-30 15:23:01,149 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:23:01,381 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:23:01,474 pages.HomePage:205 - Entered from city
+[INFO ] 2024-07-30 15:27:15,590 base.Base:136 - Chrome driver initialized
+[INFO ] 2024-07-30 15:27:16,011 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 15:27:19,220 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 15:27:19,437 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-30 15:27:20,143 pages.HomePage:205 - Entered from city
+[INFO ] 2024-07-30 15:27:44,295 pages.HomePage:212 - Entered to city
+[INFO ] 2024-07-30 15:28:12,132 pages.HomePage:220 - Selected bus travel date
+[INFO ] 2024-07-30 15:28:12,190 pages.HomePage:223 - Clicked on Search Buses button
+[ERROR] 2024-07-30 15:28:14,004 testCases.HomePageTest:101 - busSearchResultTest_Bus details not displayed
+[INFO ] 2024-07-30 15:28:15,136 base.Base:124 - Quit the driver session
+[INFO ] 2024-07-30 16:30:22,056 base.Base:136 - Chrome driver initialized
+[INFO ] 2024-07-30 16:30:22,721 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 16:30:26,715 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 16:30:26,946 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-30 16:30:27,568 pages.HomePage:205 - Entered from city
+[INFO ] 2024-07-30 16:30:51,772 pages.HomePage:212 - Entered to city
+[INFO ] 2024-07-30 16:31:20,206 pages.HomePage:220 - Selected bus travel date
+[INFO ] 2024-07-30 16:31:20,318 pages.HomePage:223 - Clicked on Search Buses button
+[ERROR] 2024-07-30 16:31:22,019 testCases.HomePageTest:101 - busSearchResultTest_Bus details not displayed
+[INFO ] 2024-07-30 16:31:23,783 base.Base:124 - Quit the driver session
+[INFO ] 2024-07-30 16:31:57,480 base.Base:136 - Chrome driver initialized
+[INFO ] 2024-07-30 16:31:58,031 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 16:32:01,998 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 16:32:02,305 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-30 16:32:03,104 pages.HomePage:205 - Entered from city
+[INFO ] 2024-07-30 16:32:27,318 pages.HomePage:212 - Entered to city
+[INFO ] 2024-07-30 16:32:55,857 pages.HomePage:220 - Selected bus travel date
+[INFO ] 2024-07-30 16:32:55,969 pages.HomePage:223 - Clicked on Search Buses button
+[ERROR] 2024-07-30 16:32:58,387 testCases.HomePageTest:101 - busSearchResultTest_Bus details not displayed
+[INFO ] 2024-07-30 16:32:59,827 base.Base:124 - Quit the driver session
+[INFO ] 2024-07-30 16:33:29,200 base.Base:136 - Chrome driver initialized
+[INFO ] 2024-07-30 16:33:29,679 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 16:33:33,091 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 16:33:33,323 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-30 16:33:34,123 pages.HomePage:205 - Entered from city
+[INFO ] 2024-07-30 16:33:48,409 pages.HomePage:212 - Entered to city
+[INFO ] 2024-07-30 16:34:06,753 pages.HomePage:220 - Selected bus travel date
+[INFO ] 2024-07-30 16:34:06,870 pages.HomePage:223 - Clicked on Search Buses button
+[ERROR] 2024-07-30 16:34:09,065 testCases.HomePageTest:101 - busSearchResultTest_Bus details not displayed
+[INFO ] 2024-07-30 16:34:10,788 base.Base:124 - Quit the driver session
+[INFO ] 2024-07-30 16:35:08,682 base.Base:136 - Chrome driver initialized
+[INFO ] 2024-07-30 16:35:09,296 base.Base:102 - Generating testmethod name
+[INFO ] 2024-07-30 16:35:12,722 base.Base:94 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-30 16:35:12,977 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-30 16:35:13,692 pages.HomePage:205 - Entered from city
+[INFO ] 2024-07-30 16:35:27,929 pages.HomePage:212 - Entered to city
+[INFO ] 2024-07-30 16:35:46,366 pages.HomePage:220 - Selected bus travel date
+[INFO ] 2024-07-30 16:35:46,492 pages.HomePage:223 - Clicked on Search Buses button
+[ERROR] 2024-07-30 16:35:48,408 testCases.HomePageTest:101 - busSearchResultTest_Bus details not displayed
+[INFO ] 2024-07-30 16:35:50,063 base.Base:124 - Quit the driver session
+[INFO ] 2024-07-31 11:14:09,276 base.Base_sauceLab:129 - Chrome driver initialized
+[INFO ] 2024-07-31 11:14:09,657 base.Base_sauceLab:95 - Generating testmethod name
+[INFO ] 2024-07-31 11:14:13,912 base.Base_sauceLab:87 - Base URL launched: https://www.redbus.in/
+[INFO ] 2024-07-31 11:14:14,543 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-31 11:14:15,909 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 11:14:17,853 base.Base_sauceLab:117 - Quit the driver session
+[INFO ] 2024-07-31 12:38:20,865 base.Base_sauceLab:131 - Chrome driver initialized
+[INFO ] 2024-07-31 12:38:25,751 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:38:30,008 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[INFO ] 2024-07-31 12:38:30,811 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-31 12:38:32,050 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:38:32,111 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:38:33,396 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[ERROR] 2024-07-31 12:38:33,469 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:38:33,472 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:38:33,698 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[ERROR] 2024-07-31 12:38:33,943 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:38:33,945 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:38:34,169 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[ERROR] 2024-07-31 12:38:44,254 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:38:45,963 base.Base_sauceLab:119 - Quit the driver session
+[INFO ] 2024-07-31 12:40:01,906 base.Base_sauceLab:131 - Chrome driver initialized
+[INFO ] 2024-07-31 12:40:04,829 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:40:06,436 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[INFO ] 2024-07-31 12:40:06,918 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-31 12:40:19,263 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:40:19,289 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:40:19,568 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[INFO ] 2024-07-31 12:44:55,068 base.Base_sauceLab:131 - Chrome driver initialized
+[INFO ] 2024-07-31 12:44:57,796 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:45:00,058 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[INFO ] 2024-07-31 12:45:00,543 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-31 12:45:02,891 saucelabpages.ProductSearch:142 - Sauce Labs Backpacknot found
+[ERROR] 2024-07-31 12:45:12,975 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:45:12,997 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:45:13,289 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[ERROR] 2024-07-31 12:45:24,008 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:45:24,010 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:45:24,055 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[ERROR] 2024-07-31 12:45:34,085 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:45:36,003 base.Base_sauceLab:119 - Quit the driver session
+[INFO ] 2024-07-31 12:48:08,352 base.Base_sauceLab:131 - Chrome driver initialized
+[INFO ] 2024-07-31 12:48:12,429 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:48:14,733 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[INFO ] 2024-07-31 12:48:15,323 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-31 12:48:17,207 saucelabpages.ProductSearch:142 - Sauce Labs Backpacknot found
+[ERROR] 2024-07-31 12:48:27,354 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:48:27,394 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:48:27,841 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[ERROR] 2024-07-31 12:48:38,995 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:48:38,997 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:48:39,073 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[ERROR] 2024-07-31 12:48:49,117 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:48:51,479 base.Base_sauceLab:119 - Quit the driver session
+[INFO ] 2024-07-31 12:51:57,126 base.Base_sauceLab:131 - Chrome driver initialized
+[INFO ] 2024-07-31 12:52:01,392 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:52:04,174 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[INFO ] 2024-07-31 12:52:04,687 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[ERROR] 2024-07-31 12:52:07,395 saucelabpages.ProductSearch:106 - Sauce Labs Backpacknot found
+[ERROR] 2024-07-31 12:52:17,491 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:52:17,517 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:52:17,810 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[ERROR] 2024-07-31 12:52:28,600 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:52:28,604 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:52:28,725 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[ERROR] 2024-07-31 12:52:38,781 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:52:40,408 base.Base_sauceLab:119 - Quit the driver session
+[INFO ] 2024-07-31 12:54:57,022 base.Base_sauceLab:131 - Chrome driver initialized
+[INFO ] 2024-07-31 12:55:00,101 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:55:01,648 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[INFO ] 2024-07-31 12:55:02,108 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-31 12:56:04,582 base.Base_sauceLab:131 - Chrome driver initialized
+[INFO ] 2024-07-31 12:56:07,256 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:56:08,622 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[INFO ] 2024-07-31 12:56:09,028 reporting.ExtentManager:133 - Files moved successfully to C:\Users\preetikhade\Desktop\Preeti\Automation\Workspace\SeleniumAssignment/extentReports/ArchivedTestResults directory.
+[INFO ] 2024-07-31 12:56:12,610 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:56:12,837 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[ERROR] 2024-07-31 12:56:23,629 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:56:23,633 base.Base_sauceLab:97 - Generating testmethod name
+[INFO ] 2024-07-31 12:56:23,703 base.Base_sauceLab:89 - Base URL launched: https://www.saucedemo.com/
+[ERROR] 2024-07-31 12:56:33,782 generics.GenericFunctions:71 - Driver is not initialized. Cannot capture screenshot.
+[INFO ] 2024-07-31 12:56:35,339 base.Base_sauceLab:119 - Quit the driver session
